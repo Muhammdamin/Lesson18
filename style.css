@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.box{
+    height: 100vh;
+    background-image: url("./img/Vector.png"),url("./img/Vector1.png");
+    background-repeat: no-repeat;
+    background-position: right top,left bottom ;
+    background-size: 20%,40%;
+}
+.png-left{
+    padding-top: 10px;
+}
+.soya{
+    width: 133px;
+    height: 133px;
+    padding-bottom: 40px;
+    background-color: whitesmoke;
+    box-shadow: 0px 7px 36px 0px rgba(100, 100, 111, 0.66);
+
+}
+.soyalar-ota{
+    display: flex;
+    gap: 97px;
+    flex-wrap: wrap;
+}
+.ota{
+    display: flex;
+    gap: 58px;
+}
+.menus li h1{
+    list-style: none;
+    text-decoration: none;
+    text-shadow: 0px 7px 4px rgba(55, 26, 171, 0.6);
+
+}
+header{
+    display: flex   ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+
+
+
+.menus{
+        display: flex;
+    gap: 18px;
+
+}
+li{
+    list-style: none;
+    padding-left: 120px;
+    padding-bottom: 24px;
+    padding-top: 20px;
+}
+.soya1{
+    width: 133px;
+    height: 133px;
+    padding-bottom: 40px;
+    background-color: whitesmoke;
+    box-shadow: 0px 8px 24px 0px rgba(47, 198, 60, 1);
+}
+.soya6{
+    width: 133px;
+    height: 133px;
+    padding-bottom: 40px;
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 8px 0px rgba(255, 0, 0, 1);
+}
+.soya7{
+    width: 133px;
+    height: 133px;
+    padding-bottom: 40px;
+    background-color: whitesmoke;
+    box-shadow: 0px 8px 24px 0px rgba(0, 127, 253, 0.92);
+}
+.header-png{
+   padding-top: 45px ;
+}
